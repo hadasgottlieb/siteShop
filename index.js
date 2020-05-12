@@ -7,7 +7,9 @@ xhttp.onreadystatechange = function() {
     let merchandise = response.merchandise;
     let output = ``;
     for (let i = 0; i < merchandise.length; i++) {
-        output += `<li class = "item"><img src="${merchandise[i].photo}" alt="ring photo" height=250 width=auto><br><span class = "item-text1 item-text">${merchandise[i].name}</span><br><span class = "item-text2 item-text"> ${merchandise[i].name2}</span><br><button>View Details</button></li> `
+        if (merchandise[i].curlique === true) {
+        output += `<li class = "item"><img src="${merchandise[i].photo}" alt="${merchandise[i].name} photo" height=250 width=auto><br><span class = "item-text1 item-text">${merchandise[i].name}</span><br><span class = "item-text2 item-text"> ${merchandise[i].name2}</span><br><button>View Details</button></li> `
+        }
     }
     $(".item-list").html(output);
     

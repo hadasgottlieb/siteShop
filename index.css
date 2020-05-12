@@ -113,11 +113,17 @@ body > div {
 
 .menu1-item {
     /* background-color: grey; */
-    cursor: pointer;
+    
     text-align: center;
     line-height: 50px;
     margin: 0 10px 0 10px;
     border-bottom: 1px solid #AA8924;
+}
+
+.menu1-item > a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #AA8924;
 }
 
 /*Menu2 style*/
@@ -134,7 +140,7 @@ body > div {
 }
 
 .menu2-list:first-child {
-    border-top: 5px solid #AA8924;
+    border-top: 7px solid #AA8924;
 }
 
 .menu2-list:last-child {
@@ -237,12 +243,16 @@ body > div {
     
 }
 
+.active {
+    font-weight: bold;
+}
 
 /*CSS animations*/
 .menu1-item:hover, .menu2-item:hover {
     /* background-color: rgb(201, 201, 201); */
     /* text-decoration: underline; */
-    font-weight: bold;
+    font-weight: 800;
+    /* background-color: rgba(255, 192, 1, 0.281); */
 }
  
 
