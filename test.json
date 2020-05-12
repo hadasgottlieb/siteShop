@@ -1,0 +1,46 @@
+{
+    "merchandise" : [
+        
+        {
+            "photo": "ring-photos/mayan1.jpg",
+            "name": "Mayan",
+            "name2": "Success from Belief",
+            "code": "010-ABB-YYY",
+            "price": "RRP: 14KT $3,100; 18KT $3,400; PT $3,900",
+            "curlique": true
+        },
+        {
+            "photo": "ring-photos/chavah1.jpg",
+            "name": "Chavah",
+            "name2": "Mother of All Life",
+            "code": "022-ABP",
+            "price": "RRP: 14KT $3,770; 18KT $4,077; PT $4,600",
+            "curlique": true
+        },
+        {
+            "photo": "ring-photos/Ani-Dodi.jpg",
+            "name": "Ani L'Dodi V'Dodi Li",
+            "name2": "I am to My Beloved as My Beloved is to me",
+            "code": "018-AAI",
+            "price": "RRP: 14KT $3,008; 18KT $3,311; PT $3,834",
+            "curlique": true
+        },
+        {
+            "photo": "ring-photos/Batsheva.jpg",
+            "name": "Batsheva",
+            "name2": "Raising the Level of Holiness",
+            "code": "016-ABF",
+            "price": "RRP: 14KT $2,970; 18KT $3,273; PT $3,795",
+            "curlique": true
+        },
+        {
+            "photo": "ring-photos/Sarah.jpg",
+            "name": "Sarah",
+            "name2": "Higher Level of Holiness",
+            "code": "BAO",
+            "price": "RRP: 14KT $1,568; 18KT $1,870; PT $2,393",
+            "curlique": true
+        }
+        
+    ]
+}
