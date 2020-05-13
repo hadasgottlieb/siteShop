@@ -11,6 +11,7 @@ body {
     color: rgb(61, 61, 61);
     font-weight: lighter;
     text-transform: uppercase;
+    /* overflow: hidden; */
 }
 
 button:focus {
@@ -53,6 +54,7 @@ body > div {
 .footer {
     grid-column: 1/6;
     grid-row: 4;
+    background-color: rgba(170, 137, 36, 0.171);
 }
 /*Header style*/
 .header1 {
@@ -202,6 +204,19 @@ body > div {
         margin: .5em;
         margin-right: 2em;
     }
+}
+
+.lightbox {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    /* border: solid 1px black; */
+    z-index: 999;
+    background: rgba(0,0,0,0.8);
 }
 
 .item {
