@@ -2,7 +2,7 @@
     "merchandise" : [
         
         {
-            "photo": "ring-photos/mayan1.jpg",
+            "photo": "ring-photos/stripes-fillin.jpg",
             "name": "Mayan",
             "name2": "Success from Belief",
             "code": "010-ABB-YYY",
@@ -10,7 +10,7 @@
             "curlique": true
         },
         {
-            "photo": "ring-photos/chavah1.jpg",
+            "photo": "ring-photos/stripes-fillin.jpg",
             "name": "Chavah",
             "name2": "Mother of All Life",
             "code": "022-ABP",
@@ -18,7 +18,7 @@
             "curlique": true
         },
         {
-            "photo": "ring-photos/Ani-Dodi.jpg",
+            "photo": "ring-photos/stripes-fillin.jpg",
             "name": "Ani L'Dodi V'Dodi Li",
             "name2": "I am to My Beloved as My Beloved is to me",
             "code": "018-AAI",
@@ -26,7 +26,7 @@
             "curlique": true
         },
         {
-            "photo": "ring-photos/Batsheva.jpg",
+            "photo": "ring-photos/stripes-fillin.jpg",
             "name": "Batsheva",
             "name2": "Raising the Level of Holiness",
             "code": "016-ABF",
@@ -34,12 +34,57 @@
             "curlique": true
         },
         {
-            "photo": "ring-photos/Sarah.jpg",
+            "photo": "ring-photos/stripes-fillin.jpg",
             "name": "Sarah",
             "name2": "Higher Level of Holiness",
             "code": "BAO",
             "price": "RRP: 14KT $1,568; 18KT $1,870; PT $2,393",
             "curlique": true
+        },
+        {
+            "photo": "ring-photos/stripes-fillin.jpg",
+            "name": "Menuka",
+            "name2": "Rest After Accomplishment",
+            "code": "001-AAA",
+            "price": "RRP: 14KT $1,568; 18KT $1,870; PT $2,393",
+            "curlique": false,
+            "classic": true
+        },
+        {
+            "photo": "ring-photos/stripes-fillin.jpg",
+            "name": "Menuka",
+            "name2": "Rest After Accomplishment",
+            "code": "001-AAA",
+            "price": "RRP: 14KT $1,568; 18KT $1,870; PT $2,393",
+            "curlique": false,
+            "classic": true
+        },
+        {
+            "photo": "ring-photos/stripes-fillin.jpg",
+            "name": "Menuka",
+            "name2": "Rest After Accomplishment",
+            "code": "001-AAA",
+            "price": "RRP: 14KT $1,568; 18KT $1,870; PT $2,393",
+            "curlique": false,
+            "classic": true
+        },
+        {
+            "photo": "ring-photos/stripes-fillin.jpg",
+            "name": "Menuka",
+            "name2": "Rest After Accomplishment",
+            "code": "001-AAA",
+            "price": "RRP: 14KT $1,568; 18KT $1,870; PT $2,393",
+            "curlique": false,
+            "classic": true
+        },
+        {
+            "photo": "ring-photos/stripes-fillin.jpg",
+            "name": "Menuka",
+            "name2": "Rest After Accomplishment",
+            "code": "001-AAA",
+            "price": "RRP: 14KT $1,568; 18KT $1,870; PT $2,393",
+            "curlique": false,
+            "classic": true
         }
         
     ]

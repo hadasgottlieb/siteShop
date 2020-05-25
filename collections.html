@@ -6,8 +6,10 @@
     <title>Collections</title>
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2cf8342c96.js" crossorigin="anonymous"></script>
+
 </head>
-<body>
+<body onload = "collectClassic()">
 
     <div class = "header"> 
         <div class = "header1">
@@ -40,8 +42,16 @@
         </ul>
     </div>
     <div class = "merchandise">
-        <h2><span class = "merch-title">Curlique</span> Collection</h2>
-        <div class = "lightbox"></div>
+        <h2><span class = "merch-title">Classic Collection</span></h2>
+        <div class = "ltbox-container display-off">
+            <div class = "ltbox">
+                <div class = "ltbox-content">
+                    <div class = "ltbox-content-photo"></div>
+                    <div class = "ltbox-content-texts"></div>
+                </div>
+                <div class = "ltbox-close"><span><i class="fas fa-times-circle"></i></span></div>
+            </div>
+        </div>
         <ul class = "item-list">
 
             <!-- <li class = "item"></li>
