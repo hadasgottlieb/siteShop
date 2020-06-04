@@ -95,6 +95,7 @@ xhttp.onreadystatechange = function() {
         $(".item-list").on("click", ".item .button-ltbox", function() {
             console.log("ltbox click function ran");
             $(".ltbox-content").empty(); //should delete previously displayed item info
+            $(".ltbox-overlay").toggleClass("display-off");
             $(".ltbox-container").toggleClass("display-off"); //should turn on lightbox
 
             let ident = $(this).data("item-id"); //that's the id of the li element
@@ -110,6 +111,7 @@ xhttp.onreadystatechange = function() {
         console.log("ltboxClose ran");
         //on click X, ltbox container toggles to display: none;
         $(".ltbox-close").on("click", function() {
+            $(".ltbox-overlay").toggleClass("display-off");
             $(".ltbox-container").toggleClass("display-off"); //should turn off lightbox
         });
     }
