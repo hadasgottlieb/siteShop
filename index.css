@@ -53,10 +53,14 @@ body > div {
 }
 
 .footer {
+    grid-row: 4/5;
     grid-column: 1/6;
-    grid-row: 4;
     background-color: rgba(170, 137, 36, 0.171);
+    width: 100%;
+    position: relative;
 }
+
+
 /*Header style*/
 .header1 {
     grid-column: 2/3;
@@ -331,14 +335,24 @@ body > div {
 }
 
 /*Footer design*/
-.footer {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    background-color: rgba(170, 137, 36, 0.247);
 
+
+.footer-contact-icons {
+    width: 50%;
+    margin: auto;
+    list-style: none;
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+    padding: 0;
 }
 
-
+.footer-contact-icons li {
+    display: inline-block;
+    font-size: 40px;
+    padding-left: 3em;
+    color: black;
+}
 
 
 
